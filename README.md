@@ -15,21 +15,21 @@ Poder entablar conversación con una IA, que sear realista en cuanto a contexto,
 
 ## Arquitectura
 
-Godot:
-  Menu, ventana principal
-  ├─ Chat, conectado con Mundo o Ficha
-  ├─ Mundo, simulación social
-  └─ Admin, administración de personajes
-	 ├─ Nuevo, permite crear un personaje paso a paso con límites o sin ellos
-	 ├─ Editar, permite hacer cambios a un personaje respetando los limites
-	 ├─ Azar, fija condiciónes para crear un personaje aleatorio
-	 ├─ Ficha, visualización de un personaje con todos sus datos y prompts
-	 ├─ Cruce, funcionalidad para reproducir dos personajes genéticamente
-	 └─ Lucha, funcionalidad para enfrentar dos personajes y ver sus daños
-Python:
-  IA, server que resuelve peticiónes LLM y TTS
-Guardado:
-  JSON, archivo que contiene un NPC
+Godot:\
+  Menu, ventana principal\
+  ├─ Chat, conectado con Mundo o Ficha\
+  ├─ Mundo, simulación social\
+  └─ Admin, administración de personajes\
+	 ├─ Nuevo, permite crear un personaje paso a paso con límites o sin ellos\
+	 ├─ Editar, permite hacer cambios a un personaje respetando los limites\
+	 ├─ Azar, fija condiciónes para crear un personaje aleatorio\
+	 ├─ Ficha, visualización de un personaje con todos sus datos y prompts\
+	 ├─ Cruce, funcionalidad para reproducir dos personajes genéticamente\
+	 └─ Lucha, funcionalidad para enfrentar dos personajes y ver sus daños\
+Python:\
+  IA, server que resuelve peticiónes LLM y TTS\
+Guardado:\
+  JSON, archivo que contiene un NPC\
 
 ## Tecnologías
 
