@@ -1,0 +1,4 @@
+[gd_scene format=3 uid="uid://cll5lsc3o0ni1"]
+
+[node name="Mundo" type="Node2D" unique_id=1296488851]
+metadata/_edit_lock_ = true

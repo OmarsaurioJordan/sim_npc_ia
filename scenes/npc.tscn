@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://t7rl3iskj57t"]
+
+[ext_resource type="Script" uid="uid://0dabqdl5g2pt" path="res://scripts/npc.gd" id="1_nh2m4"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_m2uw1"]
+radius = 40.792156
+
+[node name="Npc" type="Area2D" unique_id=117779496]
+script = ExtResource("1_nh2m4")
+
+[node name="Coli" type="CollisionShape2D" parent="." unique_id=906233761]
+shape = SubResource("CircleShape2D_m2uw1")
+metadata/_edit_lock_ = true
+
+[node name="Nombre" type="Label" parent="." unique_id=1410914219]
+offset_left = -46.0
+offset_top = -18.0
+offset_right = 46.0
+theme_override_font_sizes/font_size = 12
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_lock_ = true
